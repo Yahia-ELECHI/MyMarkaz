@@ -1,0 +1,198 @@
+2025-08-26T13:18:53.500014Z	Cloning repository...
+2025-08-26T13:18:54.469393Z	From https://github.com/lounes44L/MyMarkaz
+2025-08-26T13:18:54.469894Z	 * branch            e37da8fb33f0ac43984574beacaea506e54f23d4 -> FETCH_HEAD
+2025-08-26T13:18:54.470049Z	
+2025-08-26T13:18:54.645027Z	HEAD is now at e37da8f Fix wrangler.toml: add pages_build_output_dir for Cloudflare Pages
+2025-08-26T13:18:54.645471Z	
+2025-08-26T13:18:54.727448Z	
+2025-08-26T13:18:54.727844Z	Using v2 root directory strategy
+2025-08-26T13:18:54.748956Z	Success: Finished cloning repository files
+2025-08-26T13:18:56.544583Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-08-26T13:18:56.545245Z	
+2025-08-26T13:18:56.546548Z	Found wrangler.toml file. Reading build configuration...
+2025-08-26T13:18:56.553078Z	pages_build_output_dir: 
+2025-08-26T13:18:56.553223Z	Build environment variables: (none found)
+2025-08-26T13:18:57.657659Z	Successfully read wrangler.toml file.
+2025-08-26T13:18:57.723083Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0, pip@25.1.1, python@3.13.3
+2025-08-26T13:18:57.723591Z	Installing project dependencies: npm install --progress=false
+2025-08-26T13:18:58.87466Z	
+2025-08-26T13:18:58.874882Z	up to date, audited 1 package in 766ms
+2025-08-26T13:18:58.875625Z	
+2025-08-26T13:18:58.875858Z	found 0 vulnerabilities
+2025-08-26T13:18:58.895386Z	Installing project dependencies: pip install -r requirements.txt
+2025-08-26T13:19:00.31312Z	Collecting Django==5.0 (from -r requirements.txt (line 1))
+2025-08-26T13:19:00.35155Z	  Downloading Django-5.0-py3-none-any.whl.metadata (4.1 kB)
+2025-08-26T13:19:00.552928Z	Collecting Pillow==10.4.0 (from -r requirements.txt (line 2))
+2025-08-26T13:19:00.564368Z	  Downloading pillow-10.4.0-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (9.2 kB)
+2025-08-26T13:19:00.705683Z	Collecting reportlab==3.6.13 (from -r requirements.txt (line 3))
+2025-08-26T13:19:00.719259Z	  Downloading reportlab-3.6.13.tar.gz (4.0 MB)
+2025-08-26T13:19:00.77221Z	     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 116.7 MB/s eta 0:00:00
+2025-08-26T13:19:01.070439Z	  Installing build dependencies: started
+2025-08-26T13:19:02.253618Z	  Installing build dependencies: finished with status 'done'
+2025-08-26T13:19:02.254572Z	  Getting requirements to build wheel: started
+2025-08-26T13:19:04.704949Z	  Getting requirements to build wheel: finished with status 'done'
+2025-08-26T13:19:04.706347Z	  Preparing metadata (pyproject.toml): started
+2025-08-26T13:19:06.868942Z	  Preparing metadata (pyproject.toml): finished with status 'done'
+2025-08-26T13:19:06.892099Z	Collecting xhtml2pdf==0.2.11 (from -r requirements.txt (line 4))
+2025-08-26T13:19:06.903814Z	  Downloading xhtml2pdf-0.2.11.tar.gz (108 kB)
+2025-08-26T13:19:06.92138Z	  Installing build dependencies: started
+2025-08-26T13:19:07.890433Z	  Installing build dependencies: finished with status 'done'
+2025-08-26T13:19:07.891256Z	  Getting requirements to build wheel: started
+2025-08-26T13:19:08.304328Z	  Getting requirements to build wheel: finished with status 'done'
+2025-08-26T13:19:08.305752Z	  Preparing metadata (pyproject.toml): started
+2025-08-26T13:19:08.547593Z	  Preparing metadata (pyproject.toml): finished with status 'done'
+2025-08-26T13:19:08.573794Z	Collecting openpyxl==3.1.2 (from -r requirements.txt (line 5))
+2025-08-26T13:19:08.584579Z	  Downloading openpyxl-3.1.2-py2.py3-none-any.whl.metadata (2.5 kB)
+2025-08-26T13:19:08.611136Z	Collecting whitenoise==6.5.0 (from -r requirements.txt (line 6))
+2025-08-26T13:19:08.622861Z	  Downloading whitenoise-6.5.0-py3-none-any.whl.metadata (3.7 kB)
+2025-08-26T13:19:08.648111Z	Collecting gunicorn==21.2.0 (from -r requirements.txt (line 7))
+2025-08-26T13:19:08.657864Z	  Downloading gunicorn-21.2.0-py3-none-any.whl.metadata (4.1 kB)
+2025-08-26T13:19:08.694896Z	Collecting requests==2.31.0 (from -r requirements.txt (line 8))
+2025-08-26T13:19:08.706701Z	  Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+2025-08-26T13:19:08.729971Z	Collecting python-dotenv==1.0.0 (from -r requirements.txt (line 9))
+2025-08-26T13:19:08.739926Z	  Downloading python_dotenv-1.0.0-py3-none-any.whl.metadata (21 kB)
+2025-08-26T13:19:08.873628Z	Collecting pandas==2.1.4 (from -r requirements.txt (line 10))
+2025-08-26T13:19:08.886456Z	  Downloading pandas-2.1.4.tar.gz (4.3 MB)
+2025-08-26T13:19:08.910211Z	     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 201.1 MB/s eta 0:00:00
+2025-08-26T13:19:09.397246Z	  Installing build dependencies: started
+2025-08-26T13:20:22.453315Z	  Installing build dependencies: still running...
+2025-08-26T13:21:23.148362Z	  Installing build dependencies: still running...
+2025-08-26T13:22:05.965382Z	  Installing build dependencies: finished with status 'done'
+2025-08-26T13:22:05.966056Z	  Getting requirements to build wheel: started
+2025-08-26T13:22:06.155052Z	  Getting requirements to build wheel: finished with status 'done'
+2025-08-26T13:22:06.158105Z	  Installing backend dependencies: started
+2025-08-26T13:22:07.06034Z	  Installing backend dependencies: finished with status 'done'
+2025-08-26T13:22:07.061457Z	  Preparing metadata (pyproject.toml): started
+2025-08-26T13:23:07.05962Z	  Preparing metadata (pyproject.toml): finished with status 'error'
+2025-08-26T13:23:07.072974Z	  error: subprocess-exited-with-error
+2025-08-26T13:23:07.073198Z	  
+2025-08-26T13:23:07.073356Z	  × Preparing metadata (pyproject.toml) did not run successfully.
+2025-08-26T13:23:07.073484Z	  │ exit code: 1
+2025-08-26T13:23:07.073606Z	  ╰─> [107 lines of output]
+2025-08-26T13:23:07.073718Z	      + meson setup /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3 /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/.mesonpy-3g5gou9n/build -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --vsenv --native-file=/tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/.mesonpy-3g5gou9n/build/meson-python-native-file.ini
+2025-08-26T13:23:07.074055Z	      The Meson build system
+2025-08-26T13:23:07.074279Z	      Version: 1.2.1
+2025-08-26T13:23:07.074451Z	      Source dir: /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3
+2025-08-26T13:23:07.074559Z	      Build dir: /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/.mesonpy-3g5gou9n/build
+2025-08-26T13:23:07.074693Z	      Build type: native build
+2025-08-26T13:23:07.074783Z	      Project name: pandas
+2025-08-26T13:23:07.074878Z	      Project version: 2.1.4
+2025-08-26T13:23:07.074976Z	      C compiler for the host machine: cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+2025-08-26T13:23:07.075103Z	      C linker for the host machine: cc ld.bfd 2.38
+2025-08-26T13:23:07.075204Z	      C++ compiler for the host machine: c++ (gcc 11.4.0 "c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+2025-08-26T13:23:07.075297Z	      C++ linker for the host machine: c++ ld.bfd 2.38
+2025-08-26T13:23:07.075408Z	      Cython compiler for the host machine: cython (cython 0.29.37)
+2025-08-26T13:23:07.075521Z	      Host machine cpu family: x86_64
+2025-08-26T13:23:07.075649Z	      Host machine cpu: x86_64
+2025-08-26T13:23:07.075778Z	      Program python found: YES (/opt/buildhome/.asdf/installs/python/3.13.3/bin/python)
+2025-08-26T13:23:07.07589Z	      Found pkg-config: /usr/bin/pkg-config (0.29.2)
+2025-08-26T13:23:07.076016Z	      Run-time dependency python found: YES 3.13
+2025-08-26T13:23:07.076174Z	      Build targets in project: 53
+2025-08-26T13:23:07.076235Z	      
+2025-08-26T13:23:07.076291Z	      pandas 2.1.4
+2025-08-26T13:23:07.076394Z	      
+2025-08-26T13:23:07.076486Z	        User defined options
+2025-08-26T13:23:07.076546Z	          Native files: /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/.mesonpy-3g5gou9n/build/meson-python-native-file.ini
+2025-08-26T13:23:07.076601Z	          buildtype   : release
+2025-08-26T13:23:07.076655Z	          vsenv       : True
+2025-08-26T13:23:07.076746Z	          b_ndebug    : if-release
+2025-08-26T13:23:07.076848Z	          b_vscrt     : md
+2025-08-26T13:23:07.076947Z	      
+2025-08-26T13:23:07.077092Z	      Found ninja-1.13.0.git.kitware.jobserver-pipe-1 at /tmp/pip-build-env-4ijohgyx/normal/bin/ninja
+2025-08-26T13:23:07.077191Z	      
+2025-08-26T13:23:07.077325Z	      Visual Studio environment is needed to run Ninja. It is recommended to use Meson wrapper:
+2025-08-26T13:23:07.077412Z	      /tmp/pip-build-env-4ijohgyx/overlay/bin/meson compile -C .
+2025-08-26T13:23:07.077529Z	      + /tmp/pip-build-env-4ijohgyx/normal/bin/ninja
+2025-08-26T13:23:07.077599Z	      [1/151] Generating pandas/_libs/algos_common_helper_pxi with a custom command
+2025-08-26T13:23:07.077789Z	      [2/151] Generating pandas/_libs/khash_primitive_helper_pxi with a custom command
+2025-08-26T13:23:07.077933Z	      [3/151] Generating pandas/_libs/algos_take_helper_pxi with a custom command
+2025-08-26T13:23:07.078071Z	      [4/151] Generating pandas/_libs/intervaltree_helper_pxi with a custom command
+2025-08-26T13:23:07.078237Z	      [5/151] Generating pandas/_libs/index_class_helper_pxi with a custom command
+2025-08-26T13:23:07.078361Z	      [6/151] Generating pandas/_libs/hashtable_class_helper_pxi with a custom command
+2025-08-26T13:23:07.078811Z	      [7/151] Generating pandas/_libs/hashtable_func_helper_pxi with a custom command
+2025-08-26T13:23:07.0789Z	      [8/151] Generating pandas/_libs/sparse_op_helper_pxi with a custom command
+2025-08-26T13:23:07.078958Z	      [9/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/base.pyx
+2025-08-26T13:23:07.079445Z	      [10/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/ccalendar.pyx
+2025-08-26T13:23:07.079634Z	      [11/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/dtypes.pyx
+2025-08-26T13:23:07.079733Z	      [12/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/nattype.pyx
+2025-08-26T13:23:07.079834Z	      [13/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/np_datetime.pyx
+2025-08-26T13:23:07.079925Z	      [14/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/offsets.pyx
+2025-08-26T13:23:07.080059Z	      [15/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/conversion.pyx
+2025-08-26T13:23:07.080184Z	      [16/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/parsing.pyx
+2025-08-26T13:23:07.080337Z	      [17/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/fields.pyx
+2025-08-26T13:23:07.080513Z	      [18/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/timezones.pyx
+2025-08-26T13:23:07.080676Z	      [19/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/period.pyx
+2025-08-26T13:23:07.080817Z	      [20/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/strptime.pyx
+2025-08-26T13:23:07.080962Z	      [21/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/tzconversion.pyx
+2025-08-26T13:23:07.081071Z	      [22/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/arrays.pyx
+2025-08-26T13:23:07.081215Z	      [23/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/indexing.pyx
+2025-08-26T13:23:07.081343Z	      [24/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/timestamps.pyx
+2025-08-26T13:23:07.08145Z	      [25/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/timedeltas.pyx
+2025-08-26T13:23:07.082173Z	      [26/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslibs/vectorized.pyx
+2025-08-26T13:23:07.082414Z	      [27/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/hashing.pyx
+2025-08-26T13:23:07.082657Z	      [28/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/missing.pyx
+2025-08-26T13:23:07.082774Z	      [29/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/internals.pyx
+2025-08-26T13:23:07.082873Z	      [30/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/ops_dispatch.pyx
+2025-08-26T13:23:07.082974Z	      [31/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/properties.pyx
+2025-08-26T13:23:07.083108Z	      [32/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/index.pyx
+2025-08-26T13:23:07.083243Z	      [33/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/ops.pyx
+2025-08-26T13:23:07.083471Z	      [34/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/lib.pyx
+2025-08-26T13:23:07.084783Z	      [35/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/byteswap.pyx
+2025-08-26T13:23:07.0852Z	      [36/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/parsers.pyx
+2025-08-26T13:23:07.085459Z	      [37/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/reshape.pyx
+2025-08-26T13:23:07.085646Z	      [38/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/interval.pyx
+2025-08-26T13:23:07.086002Z	      [39/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/sas.pyx
+2025-08-26T13:23:07.086172Z	      [40/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/testing.pyx
+2025-08-26T13:23:07.086322Z	      [41/151] Compiling C object pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o
+2025-08-26T13:23:07.08646Z	      FAILED: [code=1] pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o
+2025-08-26T13:23:07.086724Z	      cc -Ipandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../pip-build-env-4ijohgyx/overlay/lib/python3.13/site-packages/numpy/core/include -I../../pandas/_libs/include -I/opt/buildhome/.asdf/installs/python/3.13.3/include/python3.13 -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -w -std=c99 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -fPIC -MD -MQ pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -MF pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o.d -o pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -c pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c
+2025-08-26T13:23:07.086876Z	      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c: In function ‘__Pyx_PyInt_As_long’:
+2025-08-26T13:23:07.086997Z	      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:5397:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+2025-08-26T13:23:07.087178Z	       5397 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+2025-08-26T13:23:07.087283Z	            |                           ^~~~~~~~~~~~~~~~~~~
+2025-08-26T13:23:07.087383Z	      In file included from /opt/buildhome/.asdf/installs/python/3.13.3/include/python3.13/longobject.h:107,
+2025-08-26T13:23:07.08749Z	                       from /opt/buildhome/.asdf/installs/python/3.13.3/include/python3.13/Python.h:81,
+2025-08-26T13:23:07.087591Z	                       from pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:6:
+2025-08-26T13:23:07.087724Z	      /opt/buildhome/.asdf/installs/python/3.13.3/include/python3.13/cpython/longobject.h:111:17: note: declared here
+2025-08-26T13:23:07.087854Z	        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+2025-08-26T13:23:07.087953Z	            |                 ^~~~~~~~~~~~~~~~~~~
+2025-08-26T13:23:07.088074Z	      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c: In function ‘__Pyx_PyInt_As_int’:
+2025-08-26T13:23:07.088179Z	      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:5631:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+2025-08-26T13:23:07.088285Z	       5631 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+2025-08-26T13:23:07.088768Z	            |                           ^~~~~~~~~~~~~~~~~~~
+2025-08-26T13:23:07.088861Z	      In file included from /opt/buildhome/.asdf/installs/python/3.13.3/include/python3.13/longobject.h:107,
+2025-08-26T13:23:07.08914Z	                       from /opt/buildhome/.asdf/installs/python/3.13.3/include/python3.13/Python.h:81,
+2025-08-26T13:23:07.089376Z	                       from pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:6:
+2025-08-26T13:23:07.08947Z	      /opt/buildhome/.asdf/installs/python/3.13.3/include/python3.13/cpython/longobject.h:111:17: note: declared here
+2025-08-26T13:23:07.089725Z	        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+2025-08-26T13:23:07.08989Z	            |                 ^~~~~~~~~~~~~~~~~~~
+2025-08-26T13:23:07.08997Z	      [42/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/tslib.pyx
+2025-08-26T13:23:07.090119Z	      [43/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/hashtable.pyx
+2025-08-26T13:23:07.090269Z	      [44/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/writers.pyx
+2025-08-26T13:23:07.090405Z	      [45/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/groupby.pyx
+2025-08-26T13:23:07.090632Z	      [46/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/window/indexers.pyx
+2025-08-26T13:23:07.090775Z	      [47/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/window/aggregations.pyx
+2025-08-26T13:23:07.090878Z	      [48/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/algos.pyx
+2025-08-26T13:23:07.091025Z	      [49/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/sparse.pyx
+2025-08-26T13:23:07.091101Z	      [50/151] Compiling Cython source /tmp/pip-install-cu9rhhf0/pandas_34d62730a9e942859289cbf6cb4c75c3/pandas/_libs/join.pyx
+2025-08-26T13:23:07.091215Z	      ninja: build stopped: subcommand failed.
+2025-08-26T13:23:07.091319Z	      [end of output]
+2025-08-26T13:23:07.091413Z	  
+2025-08-26T13:23:07.091519Z	  note: This error originates from a subprocess, and is likely not a problem with pip.
+2025-08-26T13:23:07.178591Z	
+2025-08-26T13:23:07.178881Z	[notice] A new release of pip is available: 25.1.1 -> 25.2
+2025-08-26T13:23:07.179117Z	[notice] To update, run: pip3 install --upgrade pip
+2025-08-26T13:23:07.180713Z	error: metadata-generation-failed
+2025-08-26T13:23:07.180893Z	
+2025-08-26T13:23:07.181033Z	× Encountered error while generating package metadata.
+2025-08-26T13:23:07.181156Z	╰─> See above for output.
+2025-08-26T13:23:07.18127Z	
+2025-08-26T13:23:07.18138Z	note: This is an issue with the package mentioned above, not pip.
+2025-08-26T13:23:07.18149Z	hint: See above for details.
+2025-08-26T13:23:07.367787Z	Error: Exit with error code: 1
+2025-08-26T13:23:07.368079Z	    at ChildProcess.<anonymous> (/snapshot/dist/run-build.js)
+2025-08-26T13:23:07.368216Z	    at Object.onceWrapper (node:events:652:26)
+2025-08-26T13:23:07.36834Z	    at ChildProcess.emit (node:events:537:28)
+2025-08-26T13:23:07.368449Z	    at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2025-08-26T13:23:07.377165Z	Failed: build command exited with code: 1
+2025-08-26T13:23:08.709403Z	Failed: error occurred while running build command
