@@ -1,0 +1,10 @@
+{
+  "name": "mymarkaz-django",
+  "version": "1.0.0", 
+  "description": "Application Django pour gestion d'école islamique",
+  "scripts": {
+    "build": "python manage.py collectstatic --noinput --clear && echo 'Build completed - Static files only'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
