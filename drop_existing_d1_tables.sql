@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS "TarifInscription";
+DROP TABLE IF EXISTS "SiteConfig";
+DROP TABLE IF EXISTS "Revision";
+DROP TABLE IF EXISTS "Repetition";
+DROP TABLE IF EXISTS "ProgressionCoran";
+DROP TABLE IF EXISTS "Professeur";
+DROP TABLE IF EXISTS "ParametreSite";
+DROP TABLE IF EXISTS "Paiement";
+DROP TABLE IF EXISTS "NoteExamen";
+DROP TABLE IF EXISTS "NiveauEleve";
+DROP TABLE IF EXISTS "Memorisation";
+DROP TABLE IF EXISTS "ListeAttente";
+DROP TABLE IF EXISTS "InscriptionEleve";
+DROP TABLE IF EXISTS "EvaluationCompetence";
+DROP TABLE IF EXISTS "Eleve";
+DROP TABLE IF EXISTS "EcouteAvantMemo";
